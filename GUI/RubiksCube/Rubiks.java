@@ -1,9 +1,11 @@
+package Rubiks;
+
 import java.awt.*;
 import javax.swing.*;
 import javax.swing.border.Border;
 
-public class Main {
-    private static void createAndShowGUI() {
+public class Rubiks {
+    public static void createAndShowGUI() {
         JFrame jFrame = new JFrame();
         //commit comment
         jFrame.setSize(500, 360);
@@ -53,6 +55,6 @@ public class Main {
     }
     
   public static void main(String[] args) {
-    createAndShowGUI();
+    //createAndShowGUI();
   }
 }
